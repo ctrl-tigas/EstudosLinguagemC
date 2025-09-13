@@ -10,9 +10,10 @@ int main ()
     incremento = 20;
 
     fahrenheit = inicio;
+    printf("Fahrenheit\tCelsius\n");
     while (fahrenheit <= fim) {
         celsius = 5 * (fahrenheit - 32) / 9;
-        printf("%d\t%d\n", fahrenheit, celsius);
+        printf("%d\t\t%d\n", fahrenheit, celsius);
         fahrenheit = fahrenheit + incremento;
     }
     
